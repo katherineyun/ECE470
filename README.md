@@ -32,6 +32,11 @@ Step 3. Launch V-REP
 
 You can create a folder in parallel to the v-rep folder and run your python code from there. However, in order to successfully import vrep package, you also need to add vrep.py, vrepConst.py and remoteApi.so to the folder, which can all be found in the V-REP folder that you have just unziped.
 
+```
+  cd ECE470_Final
+  python ./cp1.py
+  ```
+
 ## Authors
 
 * **Katherine Yun**
