@@ -11,7 +11,7 @@ The instructions written in this file are specifically for running the simulatio
 
 The simulation platform we used in this project is V-rep and all programming code will be written in Python3.
 
-### installing V-REP
+### Installing V-REP
 
 Step 1. Download V-REP
   You can download V-REP for Linux system by following this link http://www.coppeliarobotics.com/downloads.html.
@@ -28,13 +28,22 @@ Step 3. Launch V-REP
   cd V-REP_PRO_EDU_V3_5_0_Linux
   ./vrep.sh
   ```
+### Set Up Scene
+Step 1. Drag Robot "Sawyer" into GUI
+
+Step 2. Click "Add" in menu bar, select "Primitive Shape" -> "Sphere". Set "X-size" to 6.0000e-01, "Material density" to 30
+
+Step 3. Drag the sphere to a desired location
+
+
+
 ### Run Python Project
 
-You can create a folder in parallel to the v-rep folder and run your python code from there. However, in order to successfully import vrep package, you also need to add vrep.py, vrepConst.py and remoteApi.so to the folder, which can all be found in the V-REP folder that you have just unziped.
+You can create a folder in parallel to the v-rep folder and run your python code from there. However, in order to       successfully import vrep package, you also need to add vrep.py, vrepConst.py and remoteApi.so to the folder, which can all be found in the V-REP folder that you have just unziped.
 
 ```
-  cd ECE470_Final
-  python ./cp1.py
+ cd ECE470_Final
+ python ./cp1.py
   ```
 
 ## Authors
