@@ -43,11 +43,11 @@ You can create a folder in parallel to the v-rep folder and run your python code
  cd ECE470_Final
  python ./cp1.py
   ```
-###Run Matlab Project
+### Run Matlab Project
 
 The demonstration for checkpoint 2 was written in matlab. In order to run the project, open the matlab file and click run. 
 
-##Week 2
+## Week2
 
 We implemented the problem of forward kinematics during week2. The robot we used in this part of project is UR3 robot. First of all we've determined the homogeneous matrices for each set of joints by drawing the general schematic of UR3 robot. Then, we input two sets of theta angles in order for the ending pose of the robot to be determined. The final pose of the dummy object which is calculated using T should match the ending pose of the robot. 
 
